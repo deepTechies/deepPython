@@ -1,0 +1,22 @@
+# Head first Python
+# From the page10
+
+cast =  ["cleese", "Palin", "Jones", "Idle"]
+print (cast)
+print(len(cast))
+print(cast[1])
+
+cast.append("Gilliam")
+print(cast)
+
+cast.pop()
+print(cast)
+
+cast.extend(["Gillium", "Chapman"])
+print(cast)
+
+cast.remove("Chapman")
+print(cast)
+
+cast.insert(0, "Chapman")
+print(cast)

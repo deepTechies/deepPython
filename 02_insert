@@ -1,0 +1,13 @@
+# Head first Python
+# From the page14
+
+movies = ["The holy grail", "The life of Brian", "The meaning of life"]
+print(movies)
+
+movies.insert(1, 1975)
+movies.insert(3, 1979)
+movies.append(1983)
+print(movies)
+
+movies = ["The holy grail", 1975, "The life of Brian", 1979, "The meaning of life", 1983]
+print(movies)

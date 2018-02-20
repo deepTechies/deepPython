@@ -1,0 +1,22 @@
+# Head first Python
+# From the page21 & 22
+
+movies = ["The Holy Grail", 1975, "Terry Jones & Terry Gilliam", 91,
+         ["Graham Chapman",
+         ["Michael Palin", "John Cleese", "Terry Gilliam", "Eric Idle", "Terry Jones"]]]
+
+for i in movies:
+	if isinstance(i, list):
+		for j in i: 
+			if isinstance(j, list):
+				for k in j:
+					print(k)
+			else:
+				print(j)
+	else:
+		print(i)
+	
+
+
+#print(isinstance(movies, list))
+#print(len(movies))

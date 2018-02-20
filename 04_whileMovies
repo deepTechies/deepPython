@@ -1,0 +1,8 @@
+# Head first Python
+# From the page16
+
+favMovies = ["The holy grail", "The life of brian"]
+count = 0
+while count < len(favMovies):
+	print(favMovies[count])
+	count = count + 1

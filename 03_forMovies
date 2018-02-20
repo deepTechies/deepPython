@@ -1,0 +1,6 @@
+# Head first Python
+# From the page15
+
+favMovies = ["The holy grail", "The life of brian"]
+for i in favMovies:
+	print(i)

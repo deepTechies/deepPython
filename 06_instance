@@ -1,0 +1,8 @@
+# Head first Python
+# From the page20
+
+names = ['Michael', 'Terry']
+print(isinstance(names, list))
+
+numNames = len(names)
+print(isinstance(numNames, list))
